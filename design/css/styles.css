@@ -1,0 +1,221 @@
+html{
+  width: 1440px;
+  background-color: #f0f0f0;
+}
+
+body{
+  height: 400px;
+  width: 45%;
+  background-color: #ffffff;
+  margin: 10% auto 10% auto;
+  border-radius: 10px;
+}
+
+h1{
+  color: #2cacab;
+  font-family: 'Karla', sans-serif;
+  margin-left: 30px;
+  padding-top: 30px;
+  font-size: 22px;
+}
+
+h2{
+  font-family: 'Karla', sans-serif;
+  color: #bfdf32;
+  margin-left: 30px;
+  font-size: 16px;
+}
+
+h3{
+  margin: 20px 0 0 30px;
+  font-weight: 700;
+}
+
+p{
+  margin: 0;
+}
+
+.top{
+  width: auto;
+  height: 180px;
+  border-radius: 10px;
+}
+.form{
+  margin: 0;
+  border: 0;
+}
+
+.header-text{
+  color: #c7c7cf;
+  margin-left: 30px;
+  font-size: 16px;
+  margin-right: 40px;
+}
+
+.bottom{
+    border-radius: 10px;
+}
+
+.left{
+  background-color: #2bb3b1;
+  height: 220px;
+  width: 50%;
+  float: left;
+  border-radius: 10px;
+}
+
+.left-header{
+  font-family: 'Karla', sans-serif;
+  color: #ffffff;
+  margin-left: 30px;
+  font-size: 16px;
+  line-height: 2;
+  font-weight: 400;
+}
+
+.twenty-nine{
+  font-family: 'Karla', sans-serif;
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: 500;
+  padding: 5px;
+  margin: 0 auto auto 20px;
+}
+
+.per-month{
+  font-family: 'Karla', sans-serif;
+  color: #7fdce3;
+  font-size: 14px;
+}
+
+.full-access{
+  color: #ffffff;
+  font-family: 'Karla', sans-serif;
+  margin-left: 30px;
+  font-size: 14px;
+  margin: 5px 0 20px 30px;
+}
+
+.btn {
+position:relative;
+left:65px;
+top: 7.5px;
+	-moz-box-shadow: -1px 7px 14px -16px #276873;
+	-webkit-box-shadow: -1px 7px 14px -16px #276873;
+	box-shadow: -1px 7px 14px -16px #276873;
+	background-color:#bfdf32;
+	-webkit-border-top-left-radius:4px;
+	-moz-border-radius-topleft:4px;
+	border-top-left-radius:4px;
+	-webkit-border-top-right-radius:4px;
+	-moz-border-radius-topright:4px;
+	border-top-right-radius:4px;
+	-webkit-border-bottom-right-radius:4px;
+	-moz-border-radius-bottomright:4px;
+	border-bottom-right-radius:4px;
+	-webkit-border-bottom-left-radius:4px;
+	-moz-border-radius-bottomleft:4px;
+	border-bottom-left-radius:4px;
+text-indent:0;
+	display:inline-block;
+	color:#ffffff;
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+height:52px;
+	line-height:52px;
+width:200px;
+	text-decoration:none;
+	text-align:center;
+}.btn:hover {
+	background-color:#408c99;
+}.btn:active {
+	position:relative;
+	top:1px;
+}
+
+.right{
+  background-color: #47bfbd;
+  height: 220px;
+  width: 50%;
+  float: right;
+  border-radius: 10px;
+}
+
+.right-header{
+  font-family: 'Karla', sans-serif;
+  color: #ffffff;
+  margin-left: 30px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 2;
+}
+
+.right-text{
+  font-family: 'Karla', sans-serif;
+  color: #ffffff;
+  font-weight: 200;
+  font-size: 12px;
+  margin: 5px 50px 0 30px;
+}
+}
+
+/*font-family: 'Karla', sans-serif;
+
+
+/*<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="design/css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Single Price Grid Component</title>
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+
+<body>
+  <div class="form">
+    <div class="top">
+      <h1>Join our community</h1>
+
+      <h2>30-day, hassle-free money back guarantee</h2>
+
+      <p class="header-text">Gain access to our full library of tutorials along with expert code reviews.
+      Perfect for any developers who are serious about honing their skills.</p>
+    </div>
+
+    <div class="bottom">
+      <div class="left">
+        <h3 class="left-header">Monthly Subscription</h3>
+
+        <p class="price">&dollar;29 per month</p>
+
+        <p>Full access for less than &dollar;1 a day</p>
+
+        <a class="btn">Sign Up</a>
+
+      </div>
+
+      <div class="right">
+        <h3 class="right-header">Why Us</h3>
+
+        <p class = "left-text">
+          Tutorials by industry experts
+          Peer &amp; expert code review
+          Coding exercises
+          Access to our GitHub repos
+          Community forum
+          Flashcard decks
+          New videos every week
+        </p>
+      </div>
+    </div>
+  </div>
+*/
