@@ -4,11 +4,11 @@ html{
 }
 
 body{
-  height: 400px;
+  /*height: 400px;
   width: 45%;
   background-color: #ffffff;
   margin: 10% auto 10% auto;
-  border-radius: 10px;
+  border-radius: 10px;*/
 }
 
 h1{
@@ -38,11 +38,14 @@ p{
 .top{
   width: auto;
   height: 180px;
-  border-radius: 10px;
+  /*border-radius: 10px;*/
 }
 .form{
-  margin: 0;
-  border: 0;
+  height: 400px;
+  width: 45%;
+  background-color: #ffffff;
+  margin: 10% auto 10% auto;
+  border-radius: 10px;
 }
 
 .header-text{
@@ -52,16 +55,16 @@ p{
   margin-right: 40px;
 }
 
-.bottom{
-    border-radius: 10px;
-}
+/*.bottom{
+  border-radius: 10px;
+}*/
 
 .left{
   background-color: #2bb3b1;
   height: 220px;
   width: 50%;
   float: left;
-  border-radius: 10px;
+  /*border-radius: 10px;*/
 }
 
 .left-header{
@@ -140,7 +143,7 @@ width:200px;
   height: 220px;
   width: 50%;
   float: right;
-  border-radius: 10px;
+  /*border-radius: 10px;*/
 }
 
 .right-header{
@@ -159,7 +162,7 @@ width:200px;
   font-size: 12px;
   margin: 5px 50px 0 30px;
 }
-}
+
 
 /*font-family: 'Karla', sans-serif;
 
